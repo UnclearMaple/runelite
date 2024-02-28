@@ -1,0 +1,12 @@
+package net.runelite.client.plugins.yourplugin;
+
+import net.runelite.client.plugins.Plugin;
+import net.runelite.client.plugins.PluginDescriptor;
+
+@PluginDescriptor(
+    name = "Your Plugin",
+    description = "A plugin to search for items and display shop locations."
+)
+public class YourPlugin extends Plugin {
+    // Plugin logic here
+}
